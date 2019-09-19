@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#allTopDiv{
+    height: 610px;
+    background: url("../img/background1.jpg");
+    overflow: hidden;
+}
+#photo{
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+#photo img{
+    width: 150px;
+    border-radius: 50%;
+}
+#welcome{
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+#chinese{
+    font-size: 40px;
+    font-family: "华文新魏";
+}
+#english{
+    font-size: 28px;
+    font-family: "Chiller";
+}
+.myanimated{
+    /* 播放速度为5s */
+    animation-duration: 7s;
+    /* 延迟2s */
+    animation-delay: 7s;
+    /* 无限播放 */
+    animation-iteration-count: infinite;
+}
+#nav{
+    width: 100%;
+    height: 50px;
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+}
+#nav ul{
+    height: 50px;
+    border: 2px solid transparent;
+    background-color: skyblue;
+    margin: 0px;
+    padding: 0px;
+}
+#nav ul li{
+    float: left;
+    list-style-type: none;
+    /* width: 300px; */
+    width: 25%;
+    text-align: center;
+    line-height: 50px;
+    /* border: 1px solid green; */
+}
+#nav ul li:hover{
+    background-color: aquamarine;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#nav ul li a:hover{
+    color: black;
+}
+.dv{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid yellow; */
+    /* 以下为测试用 */
+    font-size: 30px;
+    text-align: center;
+}
+#footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    /* 测试 */
+    font-size: 40px;
+    text-align: center;
+}
